@@ -5,6 +5,7 @@ Vueの開発環境を構築できるdocker-compose
 
 ```
 .
+├── .env
 ├── Dockerfile
 ├── Makefile
 ├── README.md
