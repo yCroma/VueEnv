@@ -9,5 +9,5 @@ Vueの開発環境を構築できるdocker-compose
 以降の起動は、`make vue-start`<br>
 <br>
 `npm run serve`をしたい場合、<br>
-通常、`make serve`
-バックグラウンド、`make serve-d`
+通常、`make serve`<br>
+バックグラウンド、`make serve-d`<br>
