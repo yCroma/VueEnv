@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: ./Dockerfile
     ports:
-      - 8080:8080
+      - ${APP_PORT}:8080
     working_dir: /usr/src/app/${APP_NAME}
     volumes:
       - ./spa:/usr/src/app/${APP_NAME}
