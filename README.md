@@ -9,6 +9,7 @@ Vueの開発環境を構築できるdocker-compose
 ├── Makefile
 ├── README.md
 ├── commands
+│   ├── copyenv.sh
 │   └── create.sh
 ├── docker-compose.yml
 └── spa
@@ -29,7 +30,5 @@ Vueの開発環境を構築できるdocker-compose
 <br>
 ここに載っていない機能は、[Makefileへ](https://github.com/yCroma/VueEnv/blob/master/Makefile)
 
-## 注意点
-
-アプリ名を変更したい場合は、`commands/create.sh`の`APP_NAME`と`docker-compose`を修正する必要が生まれます。<br>
-１つの`.env`から引数を持ってくる方法がわかり次第更新します。
+## アプリ名を変更したい場合
+`.env`ファイル内にある、`APP_NAME`を変更すると全てに適応されます
