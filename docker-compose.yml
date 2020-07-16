@@ -1,0 +1,14 @@
+version: '3.7'
+services: 
+  vue:
+    container_name: SPA1
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 8080:8080
+    working_dir: /usr/src/app/spa
+    volumes:
+      - ./spa:/usr/src/app/spa
+      - ./commands:/usr/src/app/commands
+    tty: true
