@@ -13,3 +13,7 @@ Vueの開発環境を構築できるdocker-compose
 バックグラウンド、`make serve-d`<br>
 <br>
 ここに載っていない機能は、[Makefileへ](https://github.com/yCroma/VueEnv/blob/master/Makefile)
+
+# 注意点
+
+アプリ名を変更したい場合は、`commands/create.sh`の`APP_NAME`を変更する必要があります。
