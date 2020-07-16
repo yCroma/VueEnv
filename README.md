@@ -30,4 +30,5 @@ Vueの開発環境を構築できるdocker-compose
 <br>
 ここに載っていない機能は、[Makefileへ](https://github.com/yCroma/VueEnv/blob/master/Makefile)
 
-#
+## アプリ名を変更したい場合
+`.env`ファイル内にある、`APP_NAME`を変更すると全てに適応されます
