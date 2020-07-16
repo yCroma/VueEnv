@@ -1,6 +1,3 @@
-# アプリ名
-APP_NAME=SPA1
-
 # docker関連
 build:
 		docker-compose build
