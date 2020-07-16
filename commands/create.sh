@@ -1,6 +1,5 @@
 #!/bin/ash
-APP_NAME=spa
-
+. ../.env
 cd ..
 npm init -y
 vue create ${APP_NAME}

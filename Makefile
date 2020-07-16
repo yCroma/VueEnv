@@ -21,6 +21,7 @@ vue:
 # アプリの作成
 vue-create:
 		@make up
+		cd commands && bash copyenv.sh
 		docker-compose exec -w /usr/src/app/commands vue ash create.sh
 		docker-compose exec -d vue npm run serve
 
