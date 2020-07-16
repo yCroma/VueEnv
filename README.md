@@ -11,3 +11,5 @@ Vueの開発環境を構築できるdocker-compose
 `npm run serve`をしたい場合、<br>
 通常、`make serve`<br>
 バックグラウンド、`make serve-d`<br>
+<br>
+ここに載っていない機能は、[Makefileへ](https://github.com/yCroma/VueEnv/blob/master/Makefile)
