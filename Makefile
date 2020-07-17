@@ -30,7 +30,9 @@ vue-start:
 		docker-compose exec -d vue npm run serve
 
 serve:
+		@make restart
 		docker-compose exec vue npm run serve
 
 serve-d:
+		@make restart
 		docker-compose exec -d vue npm run serve
