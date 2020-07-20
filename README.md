@@ -20,6 +20,8 @@ Vueの開発環境を構築できるdocker-compose
 
 ## 使い方
 
+`vi .env`でアプリケーション名を設定
+
 初回起動は`make vue-create`<br>
 [http://localhost:8080](http://localhost:8080)にWelcomeページが表示される<br>
 <br>
