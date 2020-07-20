@@ -29,6 +29,11 @@ vue-start:
 		@make up
 		docker-compose exec -d vue npm run serve
 
+vue-init:
+		@make up
+		docker-compose exec -d vue npm install
+		docker-compose exec -d vue npm run serve
+
 serve:
 		@make restart
 		docker-compose exec vue npm run serve
